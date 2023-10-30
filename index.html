@@ -11,6 +11,8 @@
 <script src="https://kit.fontawesome.com/449e4dee85.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+<!-- Navigation block -->
     <nav>
         <div id="logo"><a href="index.html"><img src="logo-new.png"></a></div>
         <ul>
@@ -21,15 +23,19 @@
             <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100041720093052"><i class="fa-brands fa-square-facebook"></i></a></li>
         </ul>
     </nav>
+
+<!-- Main container -->
     <div class="main-container">
+    <!-- Cover section -->
         <div class="cover" id="cover">
+            <img src="main-img.jpg" id="main-img"/>
             <h1>Diana Gureev</h1>
             <p class="subtitle">Full Stack Developer</p>
             <div class="text">
-                <p>I'm a former Project Manager who became a Full Stack Developer because I got bored of hearing "we can't do that feature" 😀 My can-do attitude and creative problem solving help me get almost everything done, usually without a lot of basic questions!</p>
+                I'm a former Project Manager who became a Full Stack Developer because I got bored of hearing "we can't do that feature" 😀 My can-do attitude and creative problem solving help me get almost everything done, usually without a lot of basic questions!
             </div>
             <button class="main-buttons" id="skills-button">My skills</button>
-            <button class="main-buttons">My projects</button>
+            <button class="main-buttons"><a href="#projects">My projects</a></button>
             <div id="circle"></div>
             <div id="line"></div>
             <div id="little-squere"></div>
@@ -37,77 +43,21 @@
 
         <hr>
 
-        <!-- Skills -->
-
+    <!-- Skills -->
         <div id="skills" class="skills">
-            <p>Hard</p>
-            <div class="wrap-hard">
-                <div class="each-skill" id="block-1">HTML / CSS</div>
-                <div class="each-skill" id="block-2">JavaScript</div>
-                <div class="each-skill" id="block-3">Python</div>
-                <div class="each-skill" id="block-4">React</div>
-                <div class="each-skill" id="block-5">Node.JS</div>
-                <div class="each-skill" id="block-6">Jira</div>
-                <div class="each-skill" id="block-7">Slack</div>
-                <div class="each-skill" id="block-8">Figma</div>
-                <div class="each-skill" id="block-9">GitHub</div>
-            </div>
-            <p>soft</p>
-            <div class="wrap-soft">
-                <div class="each-skill" id="block-10">Hard-worker</div>
-                <div class="each-skill" id="block-11">Fast-learner</div>
-                <div class="each-skill" id="block-12">Analytical mind</div>
-                <div class="each-skill" id="block-13">Creative</div>
-                <div class="each-skill" id="block-14">Self-reliable</div>
-                <div class="each-skill" id="block-15">Driven</div>
-                <div class="each-skill" id="block-16">Time-managment</div>
-            </div>
+            <h2>Hard</h2>
+            <div class="wrap-hard" id="hard"></div>
+            <h2>soft</h2>
+            <div class="wrap-soft" id="soft"></div>
         </div>
         <hr>
-
-        <!-- Project section -->
-
-        <div class="projects-box" id="projects">
-            <div id="first-project">
-                <div class="cover-img">
-                    <img src="first-project.png">
-                </div>
-                <div class="project-info">
-                    <h3>Marc Chagall tribute page</h3>
-                    <p class="sub-card">This is my very first project for the full stack course. I made it from scratch after a week of learning on my own, and didn't make any changes just to see how far I could jump from this point in three months.</p> 
-                    <button class="card-buttons"><a target="_blank" href="https://github.com/DiGureev/DI-Bootcamp-Stage1/tree/7d8ed06b3a9eaac5bd6c78bcc9c6a2b7de8bc134/Admission-Project">GitHub</a></button>
-                    <button class="card-buttons">To website</button>
-                </div>  
-            </div> 
-            <div id="hackaton">
-                <div class="cover-img">
-                    <img src="hackaton-project.png">
-                </div>
-                <div class="project-info">
-                    <h3>Tel-Aviv self-tours</h3>
-                    <p class="sub-card">This is my own project for new olims, to help them get to know the amazing Tel-Aviv as I see it.</p>
-                    <button class="card-buttons"><a target="_blank" href="https://github.com/DiGureev/Selfish-Tel-Aviv">GitHub</a></button>
-                    <button class="card-buttons"><a target="_blank" href="https://digureev.github.io/Selfish-Tel-Aviv/">To website</a></button>
-                </div>  
-            </div> 
-            <div id="smth">
-                <div class="cover-img">
-                    <img src="first-project.png">
-                </div>
-                <div class="project-info">
-                    <h3>Some other project</h3>
-                    <p class="sub-card">Some other subtitle.</p>
-                    <button class="card-buttons">To GitHub</button>
-                    <button class="card-buttons">To website</button>
-                </div>  
-            </div>
-        </div>
-        <hr>
-        <footer>
-            <p>Diana Gureev, 2023</p>
-        </footer>
-  
-    </div>
+    <!-- Project section -->
+        <div class="projects-box" id="projects"></div>
     
+    <!-- Footer -->
+        <footer>
+        <p>Diana Gureev, 2023</p>
+    </footer>
+  <script src="script.js"></script>  
 </body>
 </html>
