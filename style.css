@@ -1,17 +1,20 @@
-* {
-    box-sizing: border-box;
-    margin: auto 0;
-    padding: 0;
+
+
+.main-container {
+    margin: auto;
 }
 
 
 body {
-    
+    box-sizing: border-box;
+    margin: auto 0;
+    padding: 0;
     font-family: 'Heebo';
     width: 100vw;
     background-color: #FFFEFC;
     color: #1E1E1E;
     position: relative;
+    height: auto;
 }
 
 /* Navigation */
@@ -64,6 +67,13 @@ a:hover {
 
 /* Main section */
 
+#main-img {
+    width: 30vw;
+    border-radius: 50%;
+    margin-top: 80px;
+
+}
+
 .cover {
     display: block;
     text-align: center;
@@ -115,7 +125,6 @@ h1 {
     font-size: 6em;
     letter-spacing: 10px;
     margin-bottom: 0;
-    margin-top: 80px;
     line-height: 01;
 }
 
@@ -245,7 +254,7 @@ button:focus:after {
 
 }
 
-.skills p {
+.skills h2 {
     text-transform: uppercase;
     font-size: 3em;
     font-weight: 700;
@@ -257,9 +266,9 @@ button:focus:after {
 
 .projects-box {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto; 
-    column-gap: 30px;
+    grid-gap: 15px;
     width: 70%;
     margin: auto;
     padding-top: 50px;
@@ -267,16 +276,16 @@ button:focus:after {
 }
 
 .projects-box div {
+    display: inline-block;
     background-color: #1E1E1E;
-    max-width: 600px;
-    height: auto;
     margin: 0px;
     color: white;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .project-info {
     padding: 20px ;  
+    display: block;
 }
 
 .card-buttons {
@@ -285,21 +294,23 @@ button:focus:after {
     padding: 10px 20px;  
     border: 0;
     border-radius: 5px; 
-    font-size: 0.8em; 
+    font-size: 0.6em; 
     font-weight: 700;
-    margin-right: 10px;
-    margin-top: 30px;
+    margin: 5px;
+    /* margin-top: 30px; */
     position: relative;
     transition: 1s;
     overflow: hidden;
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
 }
 
 .sub-card {
-    font-size: 1em;
+    font-size: 0.8em;
     
 }
 
@@ -312,11 +323,19 @@ h3 {
 
 .cover-img img {
     width: 100%;
-    border-top-left-radius: 20px; 
-    border-top-right-radius: 20px; 
-
 
 }
+
+.each-project{
+    width: 100%;
+}
+
+.with-buttons{
+    padding: 10px;
+
+}
+
+
 
 /* Footer */
 
@@ -390,8 +409,8 @@ footer {
 
 @media only screen and (min-width: 1200px) {
     h1 {
-        font-size: 9em;
-       margin-top: 200px;
+        font-size: 8em;
+        margin-top: 20px;
     }
 
     .text {
@@ -426,9 +445,11 @@ footer {
         
     }
 
+   
+
     .card-buttons {
         margin-top: 30px;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     footer {
