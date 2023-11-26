@@ -3,7 +3,7 @@
 
 let hardDiv = document.getElementById('hard')
 
-const hardSkills = ["HTML / CSS","Python", "PgAdmin", "NumPy", "Pandas","JavaScript", "React", "Node.JS", "Jira", "Slack", "Figma", "GitHub"]
+const hardSkills = ["HTML / CSS","Python", "PgAdmin", "PostgreSQL", "NumPy", "Pandas","JavaScript", "React", "Redux", "Node.JS", "Postman", "Git", "GitHub", "Jira", "Slack", "Figma"]
 
 hardSkills.forEach((skill, index) => {
     index += 1
