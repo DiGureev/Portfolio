@@ -54,12 +54,20 @@ const projects = [
         Website: "https://digureev.github.io/Selfish-Tel-Aviv/"
     },
     {
-        title: "smth",
-        h3: "Some other project",
-        img : "first-project.png",
-        subtitle: "Some other subtitle.",
-        GitHub: "",
-        Website: ""
+        title: "planner",
+        h3: "My Planner (Redux)",
+        img : "planner-project.png",
+        subtitle: "The everyday planner for myself. Built with React, Redux, Node and PostgreSQL",
+        GitHub: "https://github.com/DiGureev/PlannerAppRedux",
+        Website: "https://my-planner-app-node-redux.onrender.com/"
+    },
+    {
+        title: "vm",
+        h3: "Volunteer Matcher",
+        img : "vm-project.png",
+        subtitle: "Allows users to discover volunteer opportunities in Israel based on their preferences",
+        GitHub: "https://github.com/DiGureev/Volunteers-Matcher",
+        Website: "https://volunteers-matcher.onrender.com/"
     }
 ]
 
