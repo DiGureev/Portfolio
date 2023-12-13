@@ -440,6 +440,10 @@ footer {
         align-content: center;
     }
 
+    ul{
+        margin-right: 10px;
+    }
+
     li {
         font-size: 2em;
         
