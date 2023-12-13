@@ -49,7 +49,7 @@ const projects = [
         title: "final-project",
         h3: "Tel-Aviv self-tours",
         img : "hackaton-project.png",
-        subtitle: "This is my own project for new olims, to help them get to know the amazing Tel-Aviv as I see it.",
+        subtitle: "This is my own project for new olims, to help them get to know the amazing Tel-Aviv as I see it. Built with Node.js, React, Python, JWT, ElephantSQL, Google Map API",
         GitHub: "https://github.com/DiGureev/SelfishTLV",
         Website: "https://selftlv.onrender.com/"
     },
