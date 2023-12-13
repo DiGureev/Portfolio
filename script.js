@@ -46,12 +46,12 @@ const projects = [
     },
 
     {
-        title: "hackaton",
+        title: "final-project",
         h3: "Tel-Aviv self-tours",
         img : "hackaton-project.png",
         subtitle: "This is my own project for new olims, to help them get to know the amazing Tel-Aviv as I see it.",
-        GitHub: "https://github.com/DiGureev/Selfish-Tel-Aviv",
-        Website: "https://digureev.github.io/Selfish-Tel-Aviv/"
+        GitHub: "https://github.com/DiGureev/SelfishTLV",
+        Website: "https://selftlv.onrender.com/"
     },
     {
         title: "planner",
