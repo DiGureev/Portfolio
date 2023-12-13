@@ -49,7 +49,7 @@ const projects = [
         title: "final-project",
         h3: "Tel-Aviv self-tours",
         img : "hackaton-project.png",
-        subtitle: "This is my own project for new olims, to help them get to know the amazing Tel-Aviv as I see it. Built with Node.js, React, Python, JWT, ElephantSQL, Google Map API",
+        subtitle: "This is my final project for new olims, to help them get to know the amazing Tel-Aviv as I see it. Built with Node.js, React, Python, JWT, ElephantSQL, Google Map API",
         GitHub: "https://github.com/DiGureev/SelfishTLV",
         Website: "https://selftlv.onrender.com/"
     },
@@ -68,6 +68,22 @@ const projects = [
         subtitle: "Allows users to discover volunteer opportunities in Israel based on their preferences",
         GitHub: "https://github.com/DiGureev/Volunteers-Matcher",
         Website: "https://volunteers-matcher.onrender.com/"
+    },
+    {
+        title: "books",
+        h3: "Books Search",
+        img : "books-search.png",
+        subtitle: "Books Search working with Google Books API. User can search the books by title and sort it by Oldest or Newest.",
+        GitHub: "https://github.com/DiGureev/BooksSearch",
+        Website: "https://books-search-1ohx.onrender.com/"
+    },
+    {
+        title: "superheroes",
+        h3: "Super Heroes Memory Game",
+        img : "super-heroes-game.png",
+        subtitle: "Memory game with super hero cards. The user has to click on each card only once. If clicked twice - points go to zero.",
+        GitHub: "https://github.com/DiGureev/SuperHeroesGame",
+        Website: "https://super-hero-game.onrender.com/"
     }
 ]
 
