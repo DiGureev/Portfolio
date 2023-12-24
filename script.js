@@ -93,6 +93,8 @@ projects.forEach(project => {
     wraperDiv.id = project.title
     wraperDiv.classList.add('each-project')
 
+    let infoContainer = document.createElement('div')
+
     let imgDiv = document.createElement('div')
     imgDiv.classList.add("cover-img")
     let img = document.createElement('img')
@@ -102,7 +104,7 @@ projects.forEach(project => {
 
     let infoDiv = document.createElement('div')
     infoDiv.classList.add("project-info")
-    wraperDiv.append(infoDiv)
+    
 
     let textDiv = document.createElement('div')
 
@@ -115,6 +117,9 @@ projects.forEach(project => {
     p.classList.add("sub-card")
     textDiv.append(p)
     infoDiv.append(textDiv)
+
+    infoContainer.append(imgDiv, infoDiv)
+    wraperDiv.append(infoContainer)
 
     let buttonDiv = document.createElement('div')
     buttonDiv.classList.add("with-buttons")

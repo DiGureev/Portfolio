@@ -112,14 +112,27 @@ a:hover {
 }
 
 #little-squere {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     background-color: #8809B2;
     position: absolute;
     top: 150px;
     left: 0px;
     transform: rotate(10deg);
     z-index: -8;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
 
 /* About myself */
@@ -279,8 +292,10 @@ button:focus:after {
     padding-bottom: 50px;
 }
 
-.projects-box div {
-    display: inline-block;
+.projects-box .each-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #1E1E1E;
     margin: 0px;
     color: white;
@@ -449,7 +464,6 @@ footer {
         margin-left: 10px;
     }
 
-   
 
     .card-buttons {
         margin-top: 30px;
