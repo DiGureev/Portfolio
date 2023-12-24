@@ -24,7 +24,7 @@ nav {
     width: 100vw;
     background-color: #1E1E1E;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
     position: fixed;
     z-index: 1;
@@ -33,16 +33,20 @@ nav {
 
 ul {
     list-style: none;
-    margin-right: 50px;
+
 }
 
-li {
+li, #download a {
     display: inline;
     color: white;
     align-items: center;
     margin-left: 20px;
     font-size: 1.3em;
     font-weight: 500;
+}
+
+#download {
+    margin: 16px;
 }
 
 a {
