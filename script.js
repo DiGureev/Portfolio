@@ -84,6 +84,22 @@ const projects = [
         subtitle: "Memory game with super hero cards. The user has to click on each card only once. If clicked twice - points go to zero.",
         GitHub: "https://github.com/DiGureev/SuperHeroesGame",
         Website: "https://super-hero-game.onrender.com/"
+    },
+    {
+        title: "weather",
+        h3: "Weather App (Redux, MUI)",
+        img : "super-heroes-game.png",
+        subtitle: "Weather web app",
+        GitHub: "https://github.com/DiGureev/SuperHeroesGame",
+        Website: "https://super-hero-game.onrender.com/"
+    },
+    {
+        title: "one page website",
+        h3: "Onepage website for Kharkiv urban fest",
+        img : "kuf-project.png",
+        subtitle: "A landing page with a call to action button to register users for the Kharkiv City Festival",
+        GitHub: "https://github.com/DiGureev/Kharkiv-urban-fest",
+        Website: "https://kharkiv-urban-fest.onrender.com/"
     }
 ]
 
