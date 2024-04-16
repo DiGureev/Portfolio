@@ -88,10 +88,10 @@ const projects = [
     {
         title: "weather",
         h3: "Weather App (Redux, MUI)",
-        img : "super-heroes-game.png",
+        img : "weather-app.png",
         subtitle: "Weather web app",
-        GitHub: "https://github.com/DiGureev/SuperHeroesGame",
-        Website: "https://super-hero-game.onrender.com/"
+        GitHub: "https://github.com/DiGureev/WeatherApp",
+        Website: "https://weatherapp-s314.onrender.com/"
     },
     {
         title: "one page website",
