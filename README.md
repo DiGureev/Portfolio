@@ -1,4 +1,4 @@
 # Diana Gureev's Portfolio
 
-Pages with my frontend projects using HTML and CSS
+Pages with my full stack projects using HTML/CSS and JavaScript
 
